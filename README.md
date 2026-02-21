@@ -55,7 +55,7 @@
 
 ## 🚀 ติดตั้งอย่างรวดเร็ว
 
-### วิธีที่ 1: Full Setup (แนะนำ)
+### วิธีที่ 1: Full Setup
 
 ```bash
 # 1. Clone repository
@@ -70,4 +70,5 @@ sudo bash scripts/full_setup_kali_rpi.sh \
   --user www-data \
   --group www-data \
   --host 0.0.0.0 \
+
   --port 5000
