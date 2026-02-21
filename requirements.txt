@@ -1,0 +1,10 @@
+# 684C03 Vulnerability Scanner - Dependencies
+# ไม่มี dependencies ภายนอกสำหรับการทำงานพื้นฐาน
+# ใช้เฉพาะไลบรารีใน Python standard library เท่านั้น
+
+# หากต้องการเพิ่มฟีเจอร์พิเศษ สามารถเพิ่มได้ดังนี้:
+# python-dotenv==1.0.0          # สำหรับจัดการ environment variables
+# gunicorn==21.2.0              # สำหรับ production server (Linux/Mac)
+# waitress==3.0.0               # สำหรับ production server (Windows)
+# psutil==5.9.8                  # สำหรับระบบ monitoring
+# python-dateutil==2.9.0        # สำหรับจัดการวันที่ขั้นสูง
